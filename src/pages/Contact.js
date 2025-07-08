@@ -190,8 +190,9 @@ const Contact = ({ isInPakistan }) => {
                     <p>
                       {isInPakistan 
                         ? "Solar Pakistan Headquarters<br/>Lahore, Pakistan"
-                        : "Nehr Park, Sharif Abad, Takht Bhai, District Mardan"
-                      }
+                        : "Nehr Par, Sharif Abad, Takht Bhai, District Mardan"
+ 
+ }
                     </p>
                   </div>
                 </div>
