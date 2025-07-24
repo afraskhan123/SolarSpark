@@ -44,7 +44,10 @@ const About = ({ isInPakistan }) => {
               </p>
             </div>
             <div className="story-image">
-              <div className="image-placeholder">🏢</div>
+              <img 
+                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" 
+                alt="SolarSpark Team and Operations"
+              />
             </div>
           </div>
         </div>

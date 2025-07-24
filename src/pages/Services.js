@@ -39,52 +39,87 @@ const Services = ({ isInPakistan }) => {
           
           <div className="services-grid">
             <div className="service-card">
-              <div className="service-icon">🏠</div>
-              <h3>Residential Solar</h3>
-              <p>Complete solar solutions for homes, from small apartments to large villas.</p>
-              <ul>
-                <li>Solar panel installation</li>
-                <li>Inverter systems</li>
-                <li>Battery backup solutions</li>
-                <li>Net metering setup</li>
-              </ul>
-              {/* <div className="service-price">
-                {isInPakistan ? "Starting from PKR 150,000" : "Starting from $1,500"}
-              </div> */}
-              
-              <Link to="/contact" className="btn btn-primary">Get Quote</Link>
-            </div>
-            
-            <div className="service-card featured">
-              <div className="service-icon">🏢</div>
-              <h3>Commercial Solar</h3>
-              <p>Large-scale solar solutions for businesses, factories, and commercial buildings.</p>
-              <ul>
-                <li>Industrial solar systems</li>
-                <li>Commercial installations</li>
-                <li>Energy management systems</li>
-                <li>Maintenance contracts</li>
-              </ul>
-              {/* <div className="service-price">
-                {isInPakistan ? "Starting from PKR 500,000" : "Starting from $5,000"}
-              </div> */}
-              <Link to="/contact" className="btn btn-primary">Get Quote</Link>
+              <div className="service-image">
+                <img 
+                  src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" 
+                  alt="Residential Solar Installation"
+                />
+              </div>
+              <div className="service-content">
+                <div className="service-icon">🏠</div>
+                <h3>Residential Solar</h3>
+                <p>Complete solar solutions for homes, from small apartments to large villas.</p>
+                <ul>
+                  <li>Solar panel installation</li>
+                  <li>Inverter systems</li>
+                  <li>Battery backup solutions</li>
+                  <li>Net metering setup</li>
+                </ul>
+                <Link to="/contact" className="btn btn-primary">Get Quote</Link>
+              </div>
             </div>
             
             <div className="service-card">
-              <div className="service-icon">🔧</div>
-              <h3>Maintenance & Repair</h3>
-              <p>Professional maintenance and repair services to keep your system running efficiently.</p>
-              <ul>
-                <li>Regular maintenance</li>
-                <li>System diagnostics</li>
-                <li>Panel cleaning</li>
-                <li>Emergency repairs</li>
-              </ul>
-              {/* <div className="service-price">
-                {isInPakistan ? "Starting from PKR 5,000" : "Starting from $50"}
-              </div> */}
-              <Link to="/contact" className="btn btn-primary">Schedule Service</Link>
+              <div className="service-image">
+                <img 
+                  src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                  alt="Commercial Solar Installation"
+                />
+              </div>
+              <div className="service-content">
+                <div className="service-icon">🏢</div>
+                <h3>Commercial Solar</h3>
+                <p>Large-scale solar solutions for businesses, factories, and commercial buildings.</p>
+                <ul>
+                  <li>Industrial solar systems</li>
+                  <li>Commercial installations</li>
+                  <li>Energy management systems</li>
+                  <li>Maintenance contracts</li>
+                </ul>
+                <Link to="/contact" className="btn btn-primary">Get Quote</Link>
+              </div>
+            </div>
+            
+            <div className="service-card">
+              <div className="service-image">
+                <img 
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                  alt="Maintenance and Repair Services"
+                />
+              </div>
+              <div className="service-content">
+                <div className="service-icon">🔧</div>
+                <h3>Maintenance & Repair</h3>
+                <p>Professional maintenance and repair services to keep your system running efficiently.</p>
+                <ul>
+                  <li>Regular maintenance</li>
+                  <li>System diagnostics</li>
+                  <li>Panel cleaning</li>
+                  <li>Emergency repairs</li>
+                </ul>
+                <Link to="/contact" className="btn btn-primary">Schedule Service</Link>
+              </div>
+            </div>
+            
+            <div className="service-card">
+              <div className="service-image">
+                <img 
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  alt="Energy Consultation Services"
+                />
+              </div>
+              <div className="service-content">
+                <div className="service-icon">📊</div>
+                <h3>Energy Consultation</h3>
+                <p>Expert energy analysis and consultation to optimize your solar investment.</p>
+                <ul>
+                  <li>Energy consumption analysis</li>
+                  <li>Solar potential assessment</li>
+                  <li>ROI calculations</li>
+                  <li>System optimization</li>
+                </ul>
+                <Link to="/contact" className="btn btn-primary">Book Consultation</Link>
+              </div>
             </div>
           </div>
         </div>

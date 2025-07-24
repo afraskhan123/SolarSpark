@@ -27,11 +27,14 @@
 
 .service-card {
   background: var(--white);
-  padding: 40px 30px;
   border-radius: 12px;
   box-shadow: var(--shadow);
   transition: transform 0.3s ease;
   position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .service-card:hover {
@@ -46,7 +49,7 @@
 .service-card.featured::before {
   content: 'Most Popular';
   position: absolute;
-  top: -15px;
+  top: 15px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--primary-color);
@@ -55,6 +58,32 @@
   border-radius: 20px;
   font-size: 0.9rem;
   font-weight: 600;
+  z-index: 2;
+}
+
+.service-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.1);
+}
+
+.service-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .service-icon {
@@ -108,6 +137,7 @@
 .service-card .btn {
   width: 100%;
   text-align: center;
+  margin-top: auto;
 }
 
 .additional-services {

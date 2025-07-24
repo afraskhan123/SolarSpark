@@ -48,6 +48,8 @@ const Footer = ({ isInPakistan }) => {
             <div className="contact-info">
               <p>📍 {isInPakistan ? "" : "Nehr Par, Sharif Abad, Takht Bhai, District Mardan, Pakistan"}</p>
               <p>📞 +923261544404</p>
+              <p>📞 +923354647444</p>
+              <p>💬 WhatsApp: +66981212205</p>
               <p>📧 solarsparkpvtltd@gmail.com</p>
               <p>🕒 Mon - Fri: 9:00 AM - 6:00 PM</p>
             </div>

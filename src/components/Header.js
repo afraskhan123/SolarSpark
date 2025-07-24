@@ -12,13 +12,23 @@ const Header = ({ isInPakistan }) => {
 
   const handleLinkClick = () => {
     setMenuOpen(false);
+    // Scroll to top of the page
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
 
   return (
     <header className={`header${isInPakistan ? ' pakistan' : ''}`}>
       <nav className="navbar">
         <div className="container">
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+          }}>
             <span className="logo-icon">☀️</span>
             <span className="logo-text">SolarSpark</span>
           </Link>

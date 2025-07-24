@@ -202,7 +202,15 @@ const Contact = ({ isInPakistan }) => {
                   <div className="contact-details">
                     <h3>Phone</h3>
                     <p>+923261544404</p>
+                    <p>+923354647444</p>
                     {isInPakistan && <p>+92 3xx-xxxxxxx</p>}
+                  </div>
+                </div>
+                <div className="contact-item">
+                  <div className="contact-icon">💬</div>
+                  <div className="contact-details">
+                    <h3>WhatsApp</h3>
+                    <p>+66981212205</p>
                   </div>
                 </div>
                 

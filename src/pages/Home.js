@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ImageSlider from '../components/ImageSlider';
 import './Home.css';
 
 const Home = ({ isInPakistan }) => {
@@ -30,6 +31,13 @@ const Home = ({ isInPakistan }) => {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Image Slider Section */}
+      <section className="slider-section">
+        <div className="container">
+          <ImageSlider />
         </div>
       </section>
 
